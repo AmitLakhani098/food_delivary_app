@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -10,12 +11,10 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Home Screen"),
+        title: Text(""),
       ),
       body: Container(
-        child: Center(
-          child: Text("Heloo"),
-        ),
+        child: Text("HOME"),
       ),
     );
   }
